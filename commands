@@ -1,0 +1,29 @@
+sudo apt update 
+
+sudo apt-get install tilix 
+
+sudo apt install zsh 
+
+sudo apt install cUrl 
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+
+cd /tmp 
+
+git clone https://github.com/powerline/fonts.git 
+
+cd fonts/
+
+./install.sh 
+
+sudo nano ~/.zshrc
+
+ZSH_THEME="agnoster"
+
+sudo apt-get install fonts-powerline
+
+cd /usr/share/applications
+
+sudo nano com.gexperts.Tilix.desktop
+
+https://raw.githubusercontent.com/Eschechola/linux-terminal-config/main/terminal-icon.png
